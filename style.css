@@ -21,8 +21,6 @@ body {
 }
 
 .container {
-    width: 45%;
-    height: auto;
     background-color: var(--white);
     border-radius: 10px;
     padding: 25px;
@@ -71,13 +69,16 @@ span {
     body {
         padding-top: 130px;
     }
-    
+    .container {
+        width: 45%;
+        height: auto;
+    }
     .plus, .minus {
         position: absolute;
         right: 90%;
         bottom: 20%;
     }
-
+    
 }
 
 
