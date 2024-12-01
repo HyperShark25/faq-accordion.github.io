@@ -26,6 +26,7 @@ body {
     background-color: var(--white);
     border-radius: 10px;
     padding: 25px;
+    margin-top: 50px;
 }
 
 .row:not(:last-of-type) {
